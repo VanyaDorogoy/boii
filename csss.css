@@ -1,0 +1,36 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.para {
+    
+  background-image: url("https://baconmockup.com/640/360");
+    
+  min-height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.pw {
+    
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 61.2%;
+  margin-top: 50%:
+
+    
+}
+
+.header {
+    
+    text-align: center;
+    
+}
+
