@@ -22,15 +22,135 @@ body {
     
   margin-right: auto;
   margin-left:  auto;
-  max-width: 61.2%;
-  margin-top: 50%:
+  max-width: 40%;
+  font-size: 2vh;
 
-    
 }
 
 .header {
     
     text-align: center;
+    font-size: 4vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 
+.govbord {
+    
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.aye {
+    
+    
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 70%;
+    
+}
+
+.flex {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    width: 100%;
+    
+}
+
+.catto {
+    
+    border-radius: 50%;
+    border-color: red;
+    margin-left: 10%;
+    
+}
+
+.name {
+    
+    font-size: 3.5vh;
+    margin-left: 25%;
+    margin-top: 12%;
+    
+}
+
+.neng {
+    
+    font-size: 2.3vh;
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+
+.kou {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+
+.kou1 {
+    
+    font-size: 2.3vh;
+    width: 55%;
+    margin-left: 21%;
+    margin-top: 5%;
+    
+}
+
+.name1 {
+    
+    font-size: 3.5vh;
+    margin-left: 21%;
+    margin-top: 12%;
+    
+}
+
+.cato {
+    
+    border-radius: 50%;
+    border-color: red;
+    margin-left: 10%;
+    
+}
+
+.flexy {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10.5%;
+    
+}
+
+.name2 {
+    
+    font-size: 3.5vh;
+    margin-top: 12%;
+    
+}
+
+.desp {
+    
+    font-size: 2.3vh;
+    width: 99%;
+    margin-top: 8%;
+    
+}
