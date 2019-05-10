@@ -19,7 +19,7 @@
     
     <div class="flex">
         
-        <img src="imagess/img1.jpg" alt="catto" class="catto">
+        <img src="http://placekitten.com/401/401" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -49,7 +49,7 @@
     
     <div class="kou">
         
-        <img src="imagess/img2.jpg" alt="catto" class="catto">
+        <img src="http://placekitten.com/402/402" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -107,7 +107,76 @@
                
            </div>
             
-            <img src="imagess/img3.jpg" alt="kitty" class="cato">
+            <img src="http://placekitten.com/403/403" alt="kitty" class="cato">
+            
+        </div>
+        
+    </div>
+    
+    <div class="aye">
+        
+        <div class="flexy">
+           
+           <div class="ayo">
+               
+               <div class="name2">
+                   
+                   Willy Vang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Treasurer
+                   
+               </div>
+               
+               <div class="desp">
+                   
+                   Gathers donations and handles church offerings.
+                   
+                   <br><br>
+                   
+                   (559) 722 - 948
+                   
+                   <br><br>
+                   
+                   willyvang5@gmail.com
+                   
+               </div>
+               
+           </div>
+            
+            <img src="http://placekitten.com/400/400" alt="kitty" class="cato">
+            
+        </div>
+        
+    </div>
+    
+    <div class="aye">
+        
+        <div class="flexy">
+           
+           <div class="ayo">
+               
+               <div class="name3">
+                   
+                   Zong Yang &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board Member
+                   
+               </div>
+               
+               <div class="despp">
+                   
+                   Represents the church and member congregation.
+                   
+                   <br><br>
+                   
+                   (559) 320 - 6481
+
+                   
+                   <br><br>
+                   
+                   z0ngyang@gmail.com
+                   
+               </div>
+               
+           </div>
+            
+            <img src="http://placekitten.com/400/401" alt="kitty" class="cato">
             
         </div>
         
