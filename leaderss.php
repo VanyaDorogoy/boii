@@ -19,7 +19,7 @@
     
     <div class="flex">
         
-        <img src="http://placekitten.com/401/401" alt="catto" class="catto">
+        <img src="imagess/neng.png" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -49,7 +49,7 @@
     
     <div class="kou">
         
-        <img src="http://placekitten.com/402/402" alt="catto" class="catto">
+        <img src="imagess/kou.png" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -65,7 +65,7 @@
             
             <br><br>
             
-            (559) 476 - 3209
+            (559) 392-0188
             
             <br><br>
             
@@ -107,7 +107,7 @@
                
            </div>
             
-            <img src="http://placekitten.com/403/403" alt="kitty" class="cato">
+            <img src="imagess/youa.png" alt="kitty" class="cato">
             
         </div>
         
@@ -141,7 +141,7 @@
                
            </div>
             
-            <img src="http://placekitten.com/400/400" alt="kitty" class="cato">
+            <img src="imagess/willy.png" alt="kitty" class="cato">
             
         </div>
         
@@ -173,10 +173,10 @@
                    z0ngyang@gmail.com
                    
                </div>
-               
+            
            </div>
             
-            <img src="http://placekitten.com/400/401" alt="kitty" class="cato">
+            <img src="imagess/zong.png" alt="kitty" class="cato">
             
         </div>
         
