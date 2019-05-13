@@ -10,7 +10,8 @@
     <?php include 'navbar.php'
     ?>
 
-<div class="pagewrapper">
+<div class="parallaxd"></div>
+<div class="apagewrapper">
     <div class="concol">
         <div class="onecon">
                 <form action="send_mail.php" method="post">

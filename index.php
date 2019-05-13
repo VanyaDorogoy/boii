@@ -6,10 +6,18 @@
     <link rel="stylesheet" media="screen" href="css.css">
 </head>
 <body>
+   
     <?php include 'navbar.php'
     ?>
-    
-    <div class="parallax"></div>
+
+ <div id="imgGallary" class="container">
+    <img src="Images/sidebuilding.jpg" alt="buidling" width="100%" height="100%" />
+    <img src="Images/building.jpg" alt="front of building" width="100%" height="100%" />
+    <img src="Images/inside.jpg" alt="inside of building" width="100%" height="100%" />
+</div>
+<script src="js.js" type="text/javascript"></script>
+
+</div>	
   <div class="pagewrapper">  
            <div class="flex1">
                  <div class="flexp1">
@@ -22,16 +30,24 @@
             </div>
             
         <div class="flex2">
-                <div id="flexmap"></div>
+                <div id="flexmap">
+                    <div class="mapouter">
+                    <div class="gmap_canvas">
+                    <iframe width="450" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=2050%20N%20Winery%20Ave%20%23101%2C%20Fresno%2C%20CA%2093703&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://www.emojilib.com"></a>
+                    </div>
+                    </div>
+                    </div>
                 
                 <div class="flexservice">
                     <h2>Sunday School</h2>
                     <p> 2050 N Winery Ave 
                         #101, Fresno, CA 93703
-                        <br>
-                        Sunday School: 10:00 - 11:00 AM 
+                        <br><br>
+                        Sunday School: 10:00 - 11:00 AM <br>
                         Worship Service: 11:30 - 12:30 PM
-                        <br>
+                        <br><br>
                         Nursery, Children Sunday School, and Worship
                     </p>
                 </div>

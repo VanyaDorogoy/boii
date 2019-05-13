@@ -1,41 +1,62 @@
-#slideshow {
-  margin: 80px auto;
-  position: relative;
-  width: 240px;
-  height: 240px;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+/*
+#logo {
+    float: left;
+    clear: right;
+    width: 50%;
 }
 
-#slideshow > div {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+.navigation {
+    float: right;
+    clear: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 body {
     margin: 0;
     padding: 0;
+    font-family: calibri;
+    font-size: 2.3vh;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #d46d24;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #d46d24;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+
+.topnav {
+    text-decoration: none;
 }
 
 .pagewrapper {
@@ -45,6 +66,13 @@ body {
   margin-top: 50%:
 }
 
+.apagewrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 60%;
+  margin-top: 70%:
+}
+
 .footpagewrapper {
   margin-right: auto;
   margin-left:  auto;
@@ -52,7 +80,49 @@ body {
   margin-top: 50%:
 }
 
-.flex1, .concol, .triflex, .footerflex {
+.parallaxa {
+  background-image: url("Images/sunset.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.parallaxb {
+  background-image: url("Images/cross.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.parallaxc {
+  background-image: url("Images/bible.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.parallaxd {
+  background-image: url("Images/phone1.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.flex1, .concol, .triflex, .footerflex, .flex2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -60,6 +130,10 @@ body {
     align-items: center;
     align-content: space-between; 
     
+}
+
+.flexmap, .flexservice {
+    width: 40%;
 }
 
 .mission, .vision, .activities {
@@ -75,16 +149,46 @@ body {
 }
 
 .flexp1, .flexp2 {
-    width: 45%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .onecon, .twocon {
     width: 50%;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+li>img {
+    width: 50%;
+}
+
 footer {
-    background: gray;
+    background: #2a2a2a;
     padding: 2%;
+    margin-top: 5%;
+    color: #afafaf;
 }
 
 .hahc, .address, .times {
@@ -141,11 +245,11 @@ input[type=text], input, textarea {
 input[type=submit], input[type=reset] {
     background-color: #448bd3;
     color: white;
-    padding: 6%;
+    padding: 2%;
     border: none;
     border-radius: 4px;
     text-transform: capitalize;
-    
+    width: 25%;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {
@@ -153,7 +257,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 } 
 
 textarea {
-    width: 20%;
+    width: 50%;
     box-sizing: border-box;
     border: 1px solid #b5b5b5;
     background-color: white;
