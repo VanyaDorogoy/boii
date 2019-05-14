@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="csss.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Unna" rel="stylesheet">
 </head>
 <body>
    
@@ -69,7 +71,7 @@
             
             <br><br>
             
-            nengyang75@yahoo.com
+            kou.hang@yahoo.com
             
             </div>
             

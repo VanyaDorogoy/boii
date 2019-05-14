@@ -24,6 +24,8 @@ body {
   margin-left:  auto;
   max-width: 40%;
   font-size: 2vh;
+    margin-bottom: 5%;
+    font-family: 'Philosopher', sans-serif;
 
 }
 
@@ -42,6 +44,7 @@ body {
     font-size: 5vh;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-family: 'Philosopher', sans-serif;
     
 }
 
@@ -78,6 +81,7 @@ body {
     font-size: 3.5vh;
     margin-left: 25%;
     margin-top: 12%;
+    font-family: 'Philosopher', sans-serif;
     
 }
 
@@ -87,6 +91,7 @@ body {
     width: 55%;
     margin-left: 25%;
     margin-top: 5%;
+    font-family: 'Unna', serif;
     
 }
 
@@ -116,6 +121,7 @@ body {
     font-size: 3.5vh;
     margin-left: 21%;
     margin-top: 12%;
+    font-family: 'Philosopher', sans-serif;
     
 }
 
@@ -144,6 +150,7 @@ body {
     
     font-size: 3.5vh;
     margin-top: 12%;
+    font-family: 'Philosopher', sans-serif;
     
 }
 
@@ -159,6 +166,7 @@ body {
     
     font-size: 3.5vh;
     margin-top: 12%;
+    font-family: 'Philosopher', sans-serif;
     
 }
 
@@ -167,5 +175,174 @@ body {
     font-size: 2.3vh;
     width: 82%;
     margin-top: 8%;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .pw {
+        
+        max-width: 50%;
+        
+    }
+    
+    .catto {
+        
+     border-radius: 50%;
+    border-color: red;
+    margin-left: 20%;
+        
+    }
+    
+    .cato {
+        
+    border-radius: 50%;
+    border-color: red;
+    margin-left: 5%;
+        
+    }
+    
+    .name, .neng {
+        
+        text-align: center;
+        
+    }
+    
+    .name {
+        
+        margin-left: 2%;
+        
+    }
+    
+    .neng {
+        
+        margin-left: 22%;
+        
+    }
+    
+    .kou1 {
+    
+    margin-left: 23%;
+    text-align: center;
+    
+    }
+    
+    .name1 {
+    
+    margin-left: -2%;
+    text-align: center;
+    
+    }
+    
+    .flexy {
+        
+        margin-left: 15%;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .name2 {
+    
+        margin-top: 12%;
+        margin-left: 0%;
+        text-align: center;
+    
+    }
+    
+    .desp {
+        
+        text-align: center;
+        margin-bottom: 15%;
+        
+    }
+    
+    .despp {
+        
+        margin-left: 0%;
+        width: 100%;
+        margin-bottom: 15%;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .pw {
+        
+        max-width: 80%;
+        
+    }
+    
+    .catto {
+        
+        margin-left: -10%;
+        
+    }
+    
+    .cato {
+        
+        margin-left: -10%;
+        
+    }
+    
+    .flexy {
+        
+        margin-left: 0;
+        
+    }
+    
+    .name {
+        
+        margin-left: 0;
+        font-size: 2.4vh;
+        font-style: oblique;
+        
+    }
+    
+    .name1 {
+        
+        margin-left: 0;
+        font-size: 2.4vh;
+        font-style: oblique;
+        
+    }
+    
+    .neng {
+        
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    
+    .kou1 {
+        
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    
+    .name2 {
+        
+        font-size: 2.4vh;
+        margin-left: 0;
+        font-style: oblique;
+        
+        
+    }
+    
+    .name3 {
+        
+        font-size: 2.4vh;
+        font-style: oblique;
+        
+    }
+    
+    .desp, .despp, .kou1, .neng {
+        
+        font-size: 2vh;
+        
+    }
     
 }
