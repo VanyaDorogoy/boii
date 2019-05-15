@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <title>About Us</title>
     <link rel="stylesheet" media="screen" href="css.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Unna" rel="stylesheet">
 </head>
 <body>
    
    <?php include 'navbar.php'
    ?>
    
-    <div class="parallaxa"></div>
+     <div class="parallaxa"></div>
     
- <div class="apagewrapper">
+ <div class="bpagewrapper">
        <div class="triflex">
               <div class="mission"> 
             <h3>Mission</h3>
@@ -36,7 +37,7 @@
     
     <div class="parallaxb"></div>
     
-   <div class="pagewrapper">
+   <div class="bpagewrapper">
          <div class="about">
             <h3>About</h3>
             <p>We exist to help a community of people to return to their God by sharing the Good News with them and to help them to primarily love God (Ex. 20:2, Deut. 6:5, Matt. 22:37), next to love one another (John 13:34) and to love the lost and bring them to a loving and saving relationship with Jesus Christ (Luke 19:10)
@@ -45,7 +46,7 @@
     </div>
     
     <div class="parallaxc"></div>
-    <div class="pagewrapper">
+    <div class="bpagewrapper">
         
                <div class="beliefs">
                 <h3>Beliefs</h3>

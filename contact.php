@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" media="screen" href="css.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Unna" rel="stylesheet">
 </head>
 <body>
 
@@ -32,7 +33,7 @@
                     
                     <div class="two">
                         <label for="bio"></label>
-                        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Message"></textarea>
                         
                         <br>
                         <input type="reset" value="clear">
@@ -44,12 +45,15 @@
             </div>
             
                 <div class="twocon">
+                   <h2>Contact Us</h2>
                     <div class="Address">
                     (559) 583-2405 <br>
-                    hmongharvestchurch@hotmail.com <br>
+                    harvestchurch@hotmail.com <br>
+                    <hr>
                     2050 N Winery Ave <br>
                     #101, Fresno, CA 93703
                     </div>
+                    <hr>
                     
                     <div class="Times">
                     Sunday School: 10:00 - 11:00 AM  <br>
@@ -58,6 +62,7 @@
                 </div>
     </div>
 </div>
+    
 
     <?php include 'footer.php'
     ?>
