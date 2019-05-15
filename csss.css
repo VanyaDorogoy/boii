@@ -7,7 +7,20 @@ body {
 
 .para {
     
-  background-image: url("https://baconmockup.com/640/360");
+  background-image: url("imagess/group.png");
+    
+  min-height: 700px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.paraq {
+    
+background-image: url("https://baconmockup.com/640/360");
     
   min-height: 500px; 
 
@@ -177,6 +190,8 @@ body {
     margin-top: 8%;
     
 }
+
+
 
 @media only screen and (max-width: 1024px) {
     

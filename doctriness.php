@@ -10,7 +10,7 @@
    
 <?php include 'navbarr.php'?>
     
-    <div class="para"></div>
+    <div class="paraq"></div>
     
     <div class="pw">
         
