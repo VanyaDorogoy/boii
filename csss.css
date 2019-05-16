@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Unna');
+
 body {
     
     margin: 0;
@@ -20,9 +22,9 @@ body {
 
 .paraq {
     
-background-image: url("https://baconmockup.com/640/360");
+background-image: url("imagess/building.png");
     
-  min-height: 500px; 
+  min-height: 70vh; 
 
   background-attachment: fixed;
   background-position: center;
@@ -357,6 +359,12 @@ background-image: url("https://baconmockup.com/640/360");
     .desp, .despp, .kou1, .neng {
         
         font-size: 2vh;
+        
+    }
+    
+    .paraq {
+        
+        min-height: 30vh;
         
     }
     
