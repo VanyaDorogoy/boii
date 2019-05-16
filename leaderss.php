@@ -25,7 +25,7 @@
     
     <div class="flex">
         
-        <img src="imagess/neng.png" alt="catto" class="catto">
+        <img src="images/neng.png" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -55,7 +55,7 @@
     
     <div class="kou">
         
-        <img src="imagess/kou.png" alt="catto" class="catto">
+        <img src="images/kou.png" alt="catto" class="catto">
         
         <div class="flex2">
         
@@ -113,7 +113,7 @@
                
            </div>
             
-            <img src="imagess/youa.png" alt="kitty" class="cato">
+            <img src="images/youa.png" alt="kitty" class="cato">
             
         </div>
         
@@ -147,7 +147,7 @@
                
            </div>
             
-            <img src="imagess/willy.png" alt="kitty" class="cato">
+            <img src="images/willy.png" alt="kitty" class="cato">
             
         </div>
         
@@ -182,7 +182,7 @@
             
            </div>
             
-            <img src="imagess/zong.png" alt="kitty" class="cato">
+            <img src="images/zong.png" alt="kitty" class="cato">
             
         </div>
         
