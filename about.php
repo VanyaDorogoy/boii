@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <title>About Us</title>
     <link rel="stylesheet" media="screen" href="css.css">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher|Unna" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
    
    <?php include 'navbar.php'
    ?>
+   
+<div id="imgGallary" class="containera"></div>
+  <script src="js.js"></script>
    
      <div class="parallaxa"></div>
     

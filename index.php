@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" media="screen" href="css.css">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher|Unna" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
    
@@ -21,11 +21,11 @@
 
 
 <div id="imgGallary" class="container">
-    <img src="Images/sidebuilding.jpg" alt="buidling" width="100%" height="100%" />
     <img src="Images/building.jpg" alt="front of building" width="100%" height="100%" />
     <img src="Images/inside.jpg" alt="inside of building" width="100%" height="100%" />
+    <img src="Images/building.jpg" alt="front of building" width="100%" height="100%" />
 </div>
-<script src="js.js" type="text/javascript"></script>
+<script src="js.js"></script>
 
 </div>	
   <div class="pagewrapper">  

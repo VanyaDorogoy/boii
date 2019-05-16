@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Unna');
+
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ h2, h3, footer {
   display: block;
   color: black;
   text-align: center;
-  padding: 25px;
+  padding: 12%;
   text-decoration: none;
   font-size: 80%;
   border-bottom: 3px solid transparent;
@@ -34,6 +36,29 @@ h2, h3, footer {
   font-family: 'Philosopher', sans-serif;
 
 } 
+nav {
+/*    width: 100%;*/
+    background: #ffffff;
+}
+
+/*
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+*/
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #f28437;
+    font-size: 4vh;
+    display: none;
+    cursor: pointer;
+}
 
 nav a:hover {
     background-color: #ffffff;
@@ -66,21 +91,19 @@ nav > ul > li {
   margin-right: auto;
   margin-left:  auto;
   max-width: 61.2%;
-  margin-top: 50%:
 }
 
 .apagewrapper {
   margin-right: auto;
   margin-left:  auto;
   max-width: 80%;
-  margin-top: 70%:
+  margin-top: 5%;
 }
 
 .footpagewrapper {
   margin-right: auto;
   margin-left:  auto;
   max-width: 90%;
-  margin-top: 50%:
 }
 
 .parallaxa {
@@ -116,8 +139,8 @@ nav > ul > li {
 }
 
 .parallaxd {
-  background-image: url("Images/phone3.jpeg");
-  min-height: 45vh; 
+  background-image: url("Images/phone.jpeg");
+  min-height: 50vh; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,6 +213,12 @@ nav > ul > li {
 
 li>img {
     width: 50%;
+}
+
+#imgGallary>img {
+    width: 100%;
+    width: 100%;
+    
 }
 
 footer {
@@ -286,14 +315,13 @@ textarea {
       margin-right: auto;
       margin-left:  auto;
       max-width: 60%;
-      margin-top: 50%:
 }
     
 .bpagewrapper {
       margin-right: auto;
       margin-left:  auto;
       max-width: 95%;
-      margin-top: 70%:
+      margin-top: 70%;
 }
     
 .flexp1, .flexp2, .flexservice {
@@ -302,8 +330,9 @@ textarea {
 }
     
 iframe {
-        width: 65vh;
-        height: 65vh;
+    width: 65vh;
+    height: 65vh;
+    overflow: hidden;
 }
     
 .mission, .vision, .activities {
@@ -367,14 +396,10 @@ li {
       margin-right: auto;
       margin-left:  auto;
       max-width: 70%;
-      margin-top: 50%:
 }
     
 .bpagewrapper {
-      margin-right: auto;
-      margin-left:  auto;
-      max-width: 95%;
-      margin-top: 70%:
+      margin-top: 0;
 }
     
 .harvestlogo>img {
@@ -441,8 +466,10 @@ header {
 
 .harvestlogo>img {
     width: 50%;
+    margin-top: -13.5%;
 }
     
+/*
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -473,6 +500,37 @@ header {
   background-color: #ddd;
   color: black;
 }
+    
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+    
+*/
+    .toggle {
+        display: block;
+        
+    }
+    
+    ul {
+        width: 100%;
+        display: none;
+    }
+    
+    ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .active {
+        display: block;
+    }
+    
+    .topnav a {
+        width: 100%;
+        background: #ebebeb;
+    }
     
 
 }
