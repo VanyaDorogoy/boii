@@ -17,8 +17,8 @@
 <!--                   <li>Hmong-American <br> Harvest Church</li>-->
                          <li><a href="index.php">Home</a></li>
                        <li><a href="about.php">About Us</a></li>
-                       <li><a href="leaders.php">Leaders</a></li>
-                       <li><a href="doctrines.php">Doctrines</a></li>
+                       <li><a href="leaderss.php">Leaders</a></li>
+                       <li><a href="doctriness.php">Doctrines</a></li>
                        <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
