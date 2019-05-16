@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Unna');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    font-size: 2.3vh;
+}
+
+p {
+    font-family: 'Unna', serif;
+}
+
+h2, h3, footer {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12%;
+  text-decoration: none;
+  font-size: 80%;
+  border-bottom: 3px solid transparent;
+  width: 84.8%;
+  font-weight: bold;
+  font-family: 'Philosopher', sans-serif;
+
+} 
+nav {
+/*    width: 100%;*/
+    background: #ffffff;
+}
+
+/*
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+*/
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #be3838;
+    font-size: 4vh;
+    display: none;
+    cursor: pointer;
+}
+
+.toggle:hover {
+    color: #f28437;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #d46d24;
+    border-radius: 4%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    float: left;
+    width: 17%;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+
+.harvestlogo>img {
+    width: 15%;
+    float: left;
+    margin-top: .5%;
+}
+
+.pagewrapper, .bpagewrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 61.2%;
+}
+
+.apagewrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 80%;
+  margin-top: 5%;
+}
+
+.footpagewrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 90%;
+}
+
+.parallaxa {
+  background-image: url("Images/sunset.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.parallaxb {
+  background-image: url("Images/cross.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.parallaxc {
+  background-image: url("Images/bible.jpeg");
+  min-height: 35vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.parallaxd {
+  background-image: url("Images/phone.jpeg");
+  min-height: 50vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.flex1, .concol, .triflex, .footerflex, .flex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between; 
+    
+}
+
+.flexmap, .flexservice {
+    width: 40%;
+}
+
+.mission, .vision, .activities {
+    width: 33%;
+    text-align: center;
+}
+
+.about, .beliefs {
+    text-align: center;
+    width: 75%;
+    margin-left: 12.2%;
+    
+}
+
+.flexp1, .flexp2 {
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.onecon, .twocon {
+    width: 50%;
+}
+
+.twocon {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 100%;
+    width: 100%;
+}
+
+li>img {
+    width: 50%;
+}
+
+#imgGallary>img {
+    width: 100%;
+    width: 100%;
+    
+}
+
+footer {
+    background: #573434;
+    padding: 2%;
+    margin-top: 5%;
+    color: #d9d8d5;
+}
+
+.hahc, .address, .times {
+    width: 33%;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label, #fname, #lname, #email, #bio {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#fname, #lname {
+    width: 25%;
+}
+
+#email {
+    width: 50%;
+    
+}
+
+label {
+    align-content: center;
+}
+
+
+input[type=text], input, textarea {
+/*    width: 0%;*/
+    padding: 2.1%;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+    
+}
+
+input#fname, input#lname {
+    width: 34.5%;
+}
+
+input#email {
+    width: 70%;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #d46d24;
+    color: white;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    width: 34.6%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #894616;
+} 
+
+textarea {
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #b5b5b5;
+    background-color: white;
+    resize: none;
+}
+
+.verline {
+    border-left: 1px solid #868686;
+    height: 20vh;
+}
+
+.verline2 {
+    border-left: 1px solid #868686;
+    height: 20vh;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+.pagewrapper {
+      margin-right: auto;
+      margin-left:  auto;
+      max-width: 60%;
+}
+    
+.bpagewrapper {
+      margin-right: auto;
+      margin-left:  auto;
+      max-width: 95%;
+      margin-top: 70%;
+}
+    
+.flexp1, .flexp2, .flexservice {
+    width: 100%;
+
+}
+    
+iframe {
+    width: 65vh;
+    height: 65vh;
+    overflow: hidden;
+}
+    
+.mission, .vision, .activities {
+        width: 100%;
+}
+    
+.verline {
+    height: 0;
+    border-top: 1px solid #868686;
+    width: 40vh;
+    margin-left: 26.1%;
+    margin-top: 5%; 
+    margin-bottom: 3%;
+}
+
+.verline2 {
+    height: 0;
+    border-top: 1px solid #868686;
+    width: 70vh;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+    
+.hahc, .address, .times {
+    width: 100%;
+    text-align: center;
+}
+    
+.container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 80%;
+  border-bottom: 3px solid transparent;
+  width: 20%;
+} 
+    
+li {
+    float: left;
+    width: 15.4%;
+}
+    
+.harvestlogo>img {
+    width: 23%;
+}
+    
+}
+
+@media only screen and (max-width: 640px)  {
+.pagewrapper {
+      margin-right: auto;
+      margin-left:  auto;
+      max-width: 70%;
+}
+    
+.bpagewrapper {
+      margin-top: 0;
+}
+    
+.harvestlogo>img {
+    width: 40%;
+}
+    
+.flexp1, .flexp2, .flexservice {
+    width: 100%;
+    }
+    
+iframe {
+        width: 35vh;
+        height: 35vh;
+}
+   
+    
+.hahc, .address, .times {
+    width: 100%;
+    text-align: center;
+}
+    
+nav#nav.topnav {
+    margin-left: 0%;
+}
+    
+.topnav a {
+  width: 5%;
+}
+    
+    
+.onecon, .twocon {
+    width: 100%;
+}
+
+.verline {
+    height: 0;
+    border-top: 1px solid #868686;
+    width: 30vh;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.verline2 {
+    height: 0;
+    border-top: 1px solid #868686;
+    width: 30vh;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+    
+.container {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+}
+    
+header {
+    position: absolute;
+
+}
+
+.harvestlogo>img {
+    width: 50%;
+    margin-top: -13.5%;
+}
+    
+/*
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #000000;
+  padding: 14px 16px;  
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+    
+*/
+    .toggle {
+        display: block;
+        
+    }
+    
+    ul {
+        width: 100%;
+        display: none;
+    }
+    
+    ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .active {
+        display: block;
+    }
+    
+    .topnav a {
+        width: 100%;
+        background: #ebebeb;
+    }
+    
+
+}
