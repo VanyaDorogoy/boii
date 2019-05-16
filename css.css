@@ -54,10 +54,14 @@ ul {
     padding: 10px 20px;
     text-align: right;
     box-sizing: border-box;
-    color: #f28437;
+    color: #be3838;
     font-size: 4vh;
     display: none;
     cursor: pointer;
+}
+
+.toggle:hover {
+    color: #f28437;
 }
 
 nav a:hover {
@@ -85,6 +89,7 @@ nav > ul > li {
 .harvestlogo>img {
     width: 15%;
     float: left;
+    margin-top: .5%;
 }
 
 .pagewrapper, .bpagewrapper {
@@ -300,7 +305,7 @@ textarea {
 
 .verline {
     border-left: 1px solid #868686;
-    height: 0vh;
+    height: 20vh;
 }
 
 .verline2 {
