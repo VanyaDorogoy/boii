@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: calibri;
     font-size: 2.3vh;
 }
 
@@ -153,7 +152,18 @@ nav > ul > li {
   margin-bottom: 5%;
 }
 
-.flex1, .concol, .triflex, .footerflex, .flex2 {
+.flex1, .concol, .triflex, .footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between; 
+    
+}
+
+.flexevil {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -313,16 +323,9 @@ textarea {
     height: 20vh;
 }
 
-body {
-    
-    margin: 0;
-    padding: 0;
-    
-}
-
 .para {
     
-  background-image: url("images/group.png");
+  background-image: url("imagess/group.png");
     
   min-height: 700px; 
 
@@ -381,7 +384,7 @@ background-image: url("images/building.png");
     
   margin-right: auto;
   margin-left:  auto;
-  max-width: 100%;
+  max-width: 70%;
     
 }
 
@@ -503,23 +506,22 @@ background-image: url("images/building.png");
     font-size: 2.3vh;
     width: 82%;
     margin-top: 8%;
-    
+     
 }
 
 
-@media only screen and (max-width: 1024px) {
-    
-.pagewrapper {
+@media only screen and (max-width: 1065px) { 
+     
+.pagewrapper {   
       margin-right: auto;
       margin-left:  auto;
-      max-width: 60%;
+      max-width: 60%; 
 }
     
-.bpagewrapper {
+.bpagewrapper { 
       margin-right: auto;
       margin-left:  auto;
-      max-width: 95%;
-      margin-top: 70%;
+      max-width: 95%; 
 }
     
 .flexp1, .flexp2, .flexservice {
@@ -535,10 +537,11 @@ iframe {
     
 .mission, .vision, .activities {
         width: 100%;
+        
 }
     
 .verline {
-    height: 0;
+    height: 0; 
     border-top: 1px solid #868686;
     width: 40vh;
     margin-left: 26.1%;
@@ -597,17 +600,17 @@ li {
         
      border-radius: 50%;
     border-color: red;
-    margin-left: 20%;
-        
+    margin-left: 23%;
+          
     }
     
     .cato {
-        
+         
     border-radius: 50%;
     border-color: red;
-    margin-left: 5%;
+    margin-left: 9%;
         
-    }
+    } 
     
     .name, .neng {
         
@@ -671,7 +674,6 @@ li {
         margin-bottom: 15%;
         
     }
-    
 }
 
 @media only screen and (max-width: 640px)  {
@@ -706,19 +708,18 @@ iframe {
     
 nav#nav.topnav {
     margin-left: 0%;
-}
+} 
     
 .topnav a {
-  width: 5%;
+  width: 5%;  
 }
-    
-    
+     
+     
 .onecon, .twocon {
     width: 100%;
 }
 
 .verline {
-    height: 0;
     border-top: 1px solid #868686;
     width: 30vh;
     margin-left: 15%;
@@ -751,45 +752,7 @@ header {
     width: 50%;
     margin-top: -13.5%;
 }
-    
-/*
-.topnav {
-  overflow: hidden;
-  background-color: #ffffff;
-  position: relative;
-}
 
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: #000000;
-  padding: 14px 16px;  
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-    
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-    
-*/
     .toggle {
         display: block;
         
@@ -823,13 +786,13 @@ header {
     
     .catto {
         
-        margin-left: -10%;
+        margin-left: -3%;
         
     }
     
     .cato {
         
-        margin-left: -10%;
+        margin-left: -5%;
         
     }
     
@@ -894,12 +857,6 @@ header {
     .paraq {
         
         min-height: 30vh;
-        
-    }
-    
-    .para {
-        
-        min-height: 70vh;
         
     }
     

@@ -7,8 +7,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-
+   
 <?php include 'navbar.php'?>
+   
    <div id="imgGallary" class="containera"></div>
   <script src="js.js"></script>
     

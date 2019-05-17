@@ -39,7 +39,7 @@
                 </div>
             </div>
             
-        <div class="flex2">
+        <div class="flexevil">
                 <div id="flexmap">
                     <div class="mapouter">
                     <div class="gmap_canvas">

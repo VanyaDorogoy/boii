@@ -10,7 +10,7 @@
    
 <?php include 'navbar.php'?>
   
-  <div id="imgGallary" class="containera"></div>
+    <div id="imgGallary" class="containera"></div>
   <script src="js.js"></script>
    
    <div class="para"></div>
