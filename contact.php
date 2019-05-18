@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" media="screen" href="css.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
-   
+   <?php include 'navbar.php'
+   ?>
     
     <div id="imgGallary" class="containera"></div>
   <script src="js.js"></script>
@@ -17,7 +18,7 @@
 <div class="apagewrapper">
     <div class="concol">
         <div class="onecon">
-                <form action="sarah.php" method="post">
+                <form action="contact.php" method="post">
                 
                     <div class="one">
                         <label for="fname"></label>
@@ -51,7 +52,7 @@
                     <div class="Address">
                     (559) 583-2405 <br>
                     harvestchurch@hotmail.com <br>
-                    <hr>p
+                    <hr>
                     2050 N Winery Ave <br>
                     #101, Fresno, CA 93703
                     </div>
@@ -64,6 +65,9 @@
                 </div>
     </div>
 </div>
+  
+  <?php include 'footer.php'
+  ?>
    
    <?php
  function breakToNewLine($string){ 
@@ -100,7 +104,7 @@ function shootEmail($Receiver, $Title, $HTMLMessage, $fromAddr) {
 
     if(isset($_POST['fname'])){
     if($_POST['fname'] != '') {
-        shootEmail("kou.hang@sbcglobal.net", $_POST['fname'].' '.$_POST['lname'] , $_POST['bio'], $_POST['email']);
+        shootEmail("sarahkhang@icloud.com", $_POST['fname'].' '.$_POST['lname'] , $_POST['bio'], $_POST['email']);
     }
 }
 
